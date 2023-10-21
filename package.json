@@ -1,0 +1,6 @@
+{
+  "name": "azure-get-enviroment-variables",
+  "version": "1.2.0",
+  "main": "index.js",
+  "license": "ISC"
+}
