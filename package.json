@@ -1,6 +1,6 @@
 {
   "name": "azure-get-enviroment-variables",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "description": "Pacote para pegar variaveis de ambiente dentro do azure",
   "license": "ISC",
