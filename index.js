@@ -7,7 +7,7 @@ const group_name = process.argv[3];
 const printerPath = path.join(__dirname, 'printer.js');
 
 exec(
-  `az pipelines variable-group list --group-name ${group_name} --project '${project_name}'`,
+  `az pipelines variable-group list --group-name '${group_name}' --project '${project_name}'`,
   (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
