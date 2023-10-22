@@ -1,5 +1,3 @@
-Aqui está o README.md com a seção de autores e demonstração invertida:
-
 # Azure Get Environment Variables
 
 O objetivo deste pacote é simplificar a transferência de variáveis de ambiente do Azure DevOps para o arquivo .env, permitindo uma execução mais suave da aplicação localmente, sem a necessidade de copiar e colar manualmente.
@@ -8,7 +6,7 @@ O objetivo deste pacote é simplificar a transferência de variáveis de ambient
 
 Certifique-se de atender aos seguintes requisitos antes de executar o comando:
 
-- Autenticação no Azure CLI
+- Autenticação no [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
 - Acesso às bibliotecas do Azure DevOps
 - Instalação global do pacote na máquina
 
