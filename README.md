@@ -8,7 +8,8 @@ Pacote para pegar variaveis de ambientes dentro dos recursos do Azure DevOps -> 
 
 ## Demonstração
 
-Após estar autenticado no Azure cli basta criar em seu
-package.json na seção de scripts o comando que deseja executar para pegar as variaveis de ambiente ou executar o comando diretamente no terminal.
+Após estar autenticado no Azure cli basta executar em seu terminal o comando:
 
-"node ./node_modules/azure-get-enviroment-variables/index.js 'nome do projeto' 'nome da library'
+# command
+
+npx azure-get-enviroment-variables 'nome do projeto' 'nome da library'

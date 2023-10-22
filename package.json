@@ -1,9 +1,10 @@
 {
   "name": "azure-get-enviroment-variables",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "main": "index.js",
   "description": "Pacote para pegar variaveis de ambiente dentro do azure",
   "license": "ISC",
+  "bin": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Dihenry06/azure-get-enviroment-variables"
@@ -12,7 +13,8 @@
     "azure",
     "brasil",
     "enviroment",
-    "variavel"
+    "variavel",
+    "azure"
   ],
   "author": "Diogo Henrique <dihenry06@gmail.com>",
   "bugs": {
