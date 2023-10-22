@@ -1,6 +1,6 @@
 {
   "name": "azure-get-enviroment-variables",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "main": "index.js",
   "description": "O objetivo deste pacote é simplificar a transferência de variáveis de ambiente do Azure DevOps para o arquivo .env, permitindo uma execução mais suave da aplicação localmente, sem a necessidade de copiar e colar manualmente.",
   "license": "ISC",
