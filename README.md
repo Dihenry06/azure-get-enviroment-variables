@@ -16,6 +16,13 @@ az login --allow-no-subscriptions
 
 - After first try, it will install azure-devops extension if not installed. After that, run the command above again and it will work
 
+- Azure CLI might ask you to inform your organization. In order to do that, run the following command, don't forget to change '/my_org_name/' to your organization name.
+
+```
+az devops configure --defaults organization=https://dev.azure.com/my_org_name/
+```
+
+
 - Make sure to have access to the Azure DevOps libraries
 - Install this packet globally
 
