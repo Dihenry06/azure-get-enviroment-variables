@@ -23,7 +23,7 @@ npm install -g azure-get-enviroment-variables
 Após autenticar-se no Azure CLI, execute o seguinte comando no terminal:
 
 ```
-npx azure-get-enviroment-variables 'nome do projeto' 'nome da biblioteca'
+npx azure-get-enviroment-variables 'nome do projeto' -- 'nome da biblioteca'
 ```
 
 Certifique-se de substituir 'nome do projeto' e 'nome da biblioteca' pelos nomes reais do seu projeto e da sua biblioteca.
@@ -31,3 +31,7 @@ Certifique-se de substituir 'nome do projeto' e 'nome da biblioteca' pelos nomes
 ## Autores
 
 - [@dihenry06](https://github.com/Dihenry06)
+
+## Contribuidores
+
+- [@czndy](https://github.com/czndy)

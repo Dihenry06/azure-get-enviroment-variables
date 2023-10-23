@@ -2,13 +2,18 @@
 const { exec } = require('child_process');
 const path = require('path');
 
-const project_name = process.argv[2];
-const group_name = process.argv[3];
+let refinedProcess = process.argv;
+refinedProcess = refinedProcess.slice(2).join(' ');
+const project_name = refinedProcess.split(" -- ")[0];
+const group_name = refinedProcess.split(" -- ")[1];
+
+console.log("project_name", project_name);
+console.log("group_name", group_name);
 
 const printerPath = path.join(__dirname, 'printer.js');
 
 exec(
-  `az pipelines variable-group list --group-name '${group_name}' --project '${project_name}'`,
+  `az pipelines variable-group list --project "${project_name}" --group-name "${group_name}"`,
   (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
