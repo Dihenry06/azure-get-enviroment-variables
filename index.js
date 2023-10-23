@@ -15,8 +15,8 @@ if(process.argv.length > 4){
   group_name = process.argv[4];
 }
 
-console.log("project_name", project_name);
-console.log("group_name", group_name);
+console.log("Azure Project Name:", project_name);
+console.log("Library name:", group_name);
 
 const printerPath = path.join(__dirname, 'printer.js');
 
