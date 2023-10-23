@@ -6,8 +6,17 @@ The objective of this packet is to simplify the variable transfer from Azure Dev
 
 Make sure to attend to the following requirements before executing the command:
 
-- Authenticate to [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
-- Have access to the Azure DevOps libraries
+- Install Azure CLI [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+- Authenticate to [Azure CLI login](https://learn.microsoft.com/pt-br/cli/azure/)
+- Run this command on your terminal:
+
+```
+az login --allow-no-subscriptions
+```
+
+- After first try, it will install azure-devops extension if not installed. After that, run the command above again and it will work
+
+- Make sure to have access to the Azure DevOps libraries
 - Install this packet globally
 
 ## Installation

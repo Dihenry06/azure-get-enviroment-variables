@@ -6,8 +6,17 @@ O objetivo deste pacote é simplificar a transferência de variáveis de ambient
 
 Certifique-se de atender aos seguintes requisitos antes de executar o comando:
 
-- Autenticação no [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
-- Acesso às bibliotecas do Azure DevOps
+- Instale o Azure CLI [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+- Faça login no [Azure CLI login](https://learn.microsoft.com/pt-br/cli/azure/)
+- Execute esse comando no seu terminal:
+
+```
+az login --allow-no-subscriptions
+```
+
+- Depois da primeira tentativa, ele irá instalar a extensão do azure-devops se já não estiver instalada. Depois disso, execute novamente o comando acima, que irá funcionar.
+
+- Certifique-se de ter acesso às bibliotecas do Azure DevOps
 - Instalação global do pacote na máquina
 
 ## Instalação global
