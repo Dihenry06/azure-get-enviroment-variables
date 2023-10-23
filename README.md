@@ -1,37 +1,37 @@
 # Azure Get Environment Variables
 
-O objetivo deste pacote é simplificar a transferência de variáveis de ambiente do Azure DevOps para o arquivo .env, permitindo uma execução mais suave da aplicação localmente, sem a necessidade de copiar e colar manualmente.
+The objective of this packet is to simplify the variable transfer from Azure DevOps to .env file, making it easier to run the application locally, without the need to copy and paste the variables manually.
 
 ## Requisitos
 
-Certifique-se de atender aos seguintes requisitos antes de executar o comando:
+Make sure to attend to the following requirements before executing the command:
 
-- Autenticação no [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
-- Acesso às bibliotecas do Azure DevOps
-- Instalação global do pacote na máquina
+- Authenticate to [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
+- Have access to the Azure DevOps libraries
+- Install this packet globally
 
-## Instalação global
+## Installation
 
-Para instalar o pacote globalmente, execute o seguinte comando no seu terminal:
+To install this packet globally, run the following command on your terminal:
 
 ```
 npm install -g azure-get-enviroment-variables
 ```
 
-## Demonstração
+## Demonstration
 
-Após autenticar-se no Azure CLI, execute o seguinte comando no terminal:
+After authenticating to Azure CLI, run the following command in your terminal:
 
 ```
-npx azure-get-enviroment-variables 'nome do projeto' -- 'nome da biblioteca'
+npx azure-get-enviroment-variables 'project name' -- 'library name'
 ```
 
-Certifique-se de substituir 'nome do projeto' e 'nome da biblioteca' pelos nomes reais do seu projeto e da sua biblioteca.
+Make sure to replace 'project name' and 'library name' with the real project and library names.
 
-## Autores
+## Authors
 
 - [@dihenry06](https://github.com/Dihenry06)
 
-## Contribuidores
+## Contributors
 
 - [@czndy](https://github.com/czndy)
