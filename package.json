@@ -5,6 +5,10 @@
   "description": "O objetivo deste pacote é simplificar a transferência de variáveis de ambiente do Azure DevOps para o arquivo .env, permitindo uma execução mais suave da aplicação localmente, sem a necessidade de copiar e colar manualmente.",
   "license": "ISC",
   "bin": "index.js",
+  "scripts": {
+    "preinstall": "npx check-node-version --node 16.18.0",
+    "test": "true"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Dihenry06/azure-get-enviroment-variables"
@@ -20,5 +24,15 @@
   "bugs": {
     "url": "https://github.com/Dihenry06/azure-get-enviroment-variables/issues"
   },
-  "homepage": ""
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
+  }
 }
